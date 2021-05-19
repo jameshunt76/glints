@@ -1,0 +1,22 @@
+version: '3.0'
+services:
+  source_postgres_db:
+    image: postgres
+    environment:
+      - POSTGRES_USER=src_airflow
+      - POSTGRES_PASSWORD=src_airflow
+      - POSTGRES_DB=src_airflow
+    ports:
+      - 5432
+    volumes:
+      - app-volume:/var/lib/postgresql/data
+  dest_postgres_db:
+    image: postgres
+    environment:
+      - POSTGRES_USER=dest_airflow
+      - POSTGRES_PASSWORD=dest_airflow
+      - POSTGRES_DB=dest_airflow
+    ports:
+      - 5432
+volumes:
+  app-volume: null
