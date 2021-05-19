@@ -1,5 +1,5 @@
 
-All the below steps are exexcuted on Ubunu 18.04 . A Step by Step document with Screen shots is attached to the git repo
+All the below steps are executed on Ubunu 18.04 . A Step by Step document with Screen shots is attached to the git repo
 
 Assumptions:
 1)	Docker and Docker compose is installed.
