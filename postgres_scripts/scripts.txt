@@ -1,0 +1,18 @@
+CREATE TABLE src_airflow_assessment (
+    id character varying(36) NOT NULL,
+    creation_date character varying(255),
+    sale_value character varying(255)
+);
+
+INSERT INTO src_airflow_assessment (id,creation_date,sale_value)
+VALUES ('0','12-12-21','1000');
+
+INSERT INTO src_airflow_assessment (id,creation_date,sale_value)
+VALUES ('1','13-12-21','2000');
+
+
+CREATE TABLE dest_airflow_assessment (
+    id character varying(36) NOT NULL,
+    creation_date character varying(255),
+    sale_value character varying(255)
+);
