@@ -3,6 +3,8 @@ All the below steps are executed on Ubuntu 18.04 . A Step by Step document with 
 
 Assumptions:
 1)	Docker and Docker compose is installed.
+
+
 Postgres Docker Installation:
 1)	Create 2 Postgres Docker containers using docker-compose.yml to have source and destination database respectively 
 Git Repo:
@@ -32,6 +34,8 @@ Below are the 2 records inserted
  
 user id-dest_airflow
 password-dest_airflow
+
+
 
 Airflow Docker Installation:
 1)	Install Airflow using the docker-compose.yml attached to the git repo
