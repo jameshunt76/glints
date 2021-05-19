@@ -45,7 +45,9 @@ Airflow Docker Installation:
  
 
 3)	Run docker-compose up to start the webserver and scheduler
- 
+4)	Create source and destination connections for postgres
+ dest_postgress_conn
+ src_postgress_conn
 
 Create a Dag File:
 
